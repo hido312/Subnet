@@ -31,7 +31,7 @@
 
 - NVIDIA GPU + CUDA CuDNN (CPU can also be supported)
 
-
+<br/>
 
 ### Environment && Installation
 
@@ -55,7 +55,7 @@ pip install librosa pesq pypesq pystoi tqdm toml colorful mir_eval torch_complex
 conda install -c conda-forge ffmpeg
 ```
 
-
+<br/>
 
 ### Quick Usage
 Download the [FullSubnet pre-trained checkpoint](https://drive.google.com/file/d/1UJSt1G0P_aXry-u79LLU_l9tCnNa2u7C/view) at './pretraind', and input commands:
@@ -82,11 +82,11 @@ git clone https://github.com/RookieJunChen/Inter-SubNet.git
 cd Inter-SubNet
 ```
 
-
+<br/>
 
 ### Data preparation
 
-#### Train data
+#### 1. Train data
 
 Please prepare your data in the data dir as like:
 
@@ -102,11 +102,11 @@ source activate speech_enhance
 bash run.sh 0   # peprare training list or meta file
 ```
 
-#### Test data
+#### 2. Test data
 
 Please prepare your test cases dir like: `data/test_cases_<name>`, and set the test dir in the script `run.sh`.
 
-
+<br/>
 
 ### Training
 
@@ -119,7 +119,7 @@ source activate speech_enhance
 bash run.sh 1   
 ```
 
-
+<br/>
 
 ### Inference
 
@@ -139,9 +139,7 @@ source activate speech_enhance
 bash inference.sh
 ```
 
-
-
-
+<br/>
 
 ### Eval
 
@@ -153,12 +151,20 @@ bash metrics.sh
 
 For test set without reference, you can obtain subjective scores (DNS_MOS and  NISQA, etc) through [DNSMOS](https://github.com/RookieJunChen/dns_mos_calculate) and [NISQA](https://github.com/RookieJunChen/my_NISQA).
 
-
-
+<br/>
 
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
+@inproceedings{chen2022fullsubnet+,
+  title={FullSubNet+: Channel Attention FullSubNet with Complex Spectrograms for Speech Enhancement},
+  author={Chen, Jun and Wang, Zilin and Tuo, Deyi and Wu, Zhiyong and Kang, Shiyin and Meng, Helen},
+  booktitle={ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={7857--7861},
+  year={2022},
+  organization={IEEE}
+}
+
 @inproceedings{chen2023inter,
   title={Inter-Subnet: Speech Enhancement with Subband Interaction},
   author={Chen, Jun and Rao, Wei and Wang, Zilin and Lin, Jiuxin and Wu, Zhiyong and Wang, Yannan and Shang, Shidong and Meng, Helen},
