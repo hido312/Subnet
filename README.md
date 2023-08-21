@@ -1,5 +1,5 @@
 
-# FullSubNet+ & Inter-SubNet
+# FullSubNet+ / Inter-SubNet
 
 ### 1. FullSubNet+
 
@@ -9,6 +9,7 @@
 
 16kHz, 3분 짜리 음원 한 번에 Inference 가능 (RTX4090 24GiB 기준)
 
+<br/>
 
 ### 2. Inter-SubNet
 
