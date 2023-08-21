@@ -19,8 +19,7 @@
 
 16kHz, 2분 짜리 음원 한 번에 Inference 가능 (RTX4090 24GiB 기준)
 
-
-
+<br/>
 
 ## Requirements
 
