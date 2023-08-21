@@ -1,14 +1,18 @@
 
 # FullSubNet+ & Inter-SubNet
 
-1. **"[FullSubNet+: Channel Attention FullSubNet with Complex Spectrograms for Speech Enhancement](https://arxiv.org/abs/2203.12188)"**,  accepted by ICASSP 2022.
+### 1. FullSubNet+
+
+**"[FullSubNet+: Channel Attention FullSubNet with Complex Spectrograms for Speech Enhancement](https://arxiv.org/abs/2203.12188)"**,  accepted by ICASSP 2022.
 
 📜[[Full Paper](https://arxiv.org/abs/2203.12188)] ▶[[Demo](https://hit-thusz-rookiecj.github.io/fullsubnet-plus.github.io/)] 💿[[Checkpoint](https://drive.google.com/file/d/1UJSt1G0P_aXry-u79LLU_l9tCnNa2u7C/view)]
 
 16kHz, 3분 짜리 음원 한 번에 Inference 가능 (RTX4090 24GiB 기준)
 
 
-2. **"[Inter-SubNet: Speech Enhancement with Subband Interaction](https://arxiv.org/abs/2305.05599)"**,  accepted by ICASSP 2023.
+### 2. Inter-SubNet
+
+**"[Inter-SubNet: Speech Enhancement with Subband Interaction](https://arxiv.org/abs/2305.05599)"**,  accepted by ICASSP 2023.
 
 📜[[Full Paper](https://arxiv.org/abs/2305.05599)] ▶[[Demo](https://rookiejunchen.github.io/Inter-SubNet_demo/)] 💿[[Checkpoint](https://drive.google.com/file/d/1j9jdXRxPhXLE93XlYppCQtcOqMOJNjdt/view?usp=share_link)]
 
